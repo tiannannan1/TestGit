@@ -9,4 +9,8 @@ public class TestController {
 
         return "qq";
     }
+
+    public void add() {
+
+    }
 }
