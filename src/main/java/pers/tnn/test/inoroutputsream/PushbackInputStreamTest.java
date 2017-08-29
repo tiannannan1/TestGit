@@ -7,7 +7,7 @@ import java.io.*;
  * User: Tian nan nan
  * Date: 2017/8/25
  */
-public class pushbackInputStreamTest {
+public class PushbackInputStreamTest {
 
     public static void main(String[] args) throws IOException {
 
