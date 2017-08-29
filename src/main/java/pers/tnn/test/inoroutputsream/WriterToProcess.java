@@ -6,7 +6,7 @@ import java.io.PrintStream;
 import java.util.Scanner;
 
 /**
- * Description: TODO
+ * Description: 读取其他进程的程序
  * User: Tian nan nan
  * Date: 2017/8/28
  */
