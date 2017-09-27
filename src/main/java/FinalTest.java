@@ -1,4 +1,4 @@
-import per.tnn.test.user.People;
+import pers.tnn.test.user.People;
 
 public class FinalTest {
 

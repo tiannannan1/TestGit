@@ -1,4 +1,4 @@
-import per.tnn.test.user.SingletonClass;
+import pers.tnn.test.user.SingletonClass;
 
 public class SingletonTest {
 

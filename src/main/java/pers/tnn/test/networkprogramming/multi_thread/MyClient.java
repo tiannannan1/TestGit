@@ -15,6 +15,8 @@ public class MyClient {
 
     public static void main(String[] args) throws IOException {
 
+        System.out.println();
+
         Socket s = new Socket("192.168.1.213", 3000);
         // 客户端启动线程，不短读取来自服务器的数据
         new Thread(new ClientThread(s)).start();

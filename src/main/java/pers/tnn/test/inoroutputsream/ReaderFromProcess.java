@@ -19,14 +19,18 @@ public class ReaderFromProcess {
         try(
                 // 以p进程的错误流创建
                 // 错误流相对于程序为输入流，对于p进程是输出流
-                //BufferedReader br = new BufferedReader(new InputStreamReader(p.getErrorStream()));
-                BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                BufferedReader br = new BufferedReader(new InputStreamReader(p.getErrorStream(), "GBK"))
+                //BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()))
+
                 ) {
-            String buffer = null;
+            String buffer;
+
+            System.out.println(br.toString() + "——————————————");
 
             // 将读取的内容输出
             while((buffer = br.readLine()) != null) {
 
+                //System.out.println(new String(buffer.getBytes()));
                 System.out.println(buffer);
             }
         }

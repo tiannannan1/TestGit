@@ -1,4 +1,4 @@
-import per.tnn.test.user.ImmutableClass;
+import pers.tnn.test.user.ImmutableClass;
 
 public class ImmutableTest {
 
